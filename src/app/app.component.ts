@@ -9,9 +9,8 @@ import { FormControl, FormGroup } from '@angular/forms';
 export class AppComponent {
   title = 'Currency Converter';
   result = 0;
-  amountInput = new FormGroup({
-    usdAmount : new FormControl(0)
-  })
+ 
+  
 
   convert() {
 

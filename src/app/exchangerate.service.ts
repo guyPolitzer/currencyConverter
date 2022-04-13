@@ -11,8 +11,8 @@ constructor(
 ) { }
 
   covert(): any {
-    let url = `https://v6.exchangerate-api.com/v6/9aeb84870f784c26ff85823c/latest/USD`
-    return this._http
+    let url = `https://v6.exchangerate-api.com/v6/9aeb84870f784c26ff85823c/latest/USD` // use "ILS"
+    return this._http 
       .get(url)
   }
 

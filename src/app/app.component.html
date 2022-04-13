@@ -1,9 +1,9 @@
-<form class="example-form" [formGroup]="amountInput">
+<form class="example-form" >
     <div class="title">{{title}}</div>
     <div class="inputBox">
         <mat-form-field class="example-full-width" appearance="fill">
             <mat-label>Amount in USD</mat-label>
-            <input matInput value="" [formControlName]="'usdAmount'">
+            <input matInput value="" >
           </mat-form-field>
           <button mat-button color="primary" (click)="convert()">Convert</button>
     </div>
